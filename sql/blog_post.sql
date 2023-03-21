@@ -1,3 +1,4 @@
+-- Table posts
 CREATE TABLE IF NOT EXISTS public.posts
 (
     id integer NOT NULL,
@@ -7,6 +8,7 @@ CREATE TABLE IF NOT EXISTS public.posts
     PRIMARY KEY (id)
 );
 
+-- Table comments
 CREATE TABLE IF NOT EXISTS public.comments
 (
     id integer NOT NULL,
